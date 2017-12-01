@@ -1,4 +1,4 @@
-Will the program compile successfully?
+1. Will the program compile successfully?
 
 
 ```
@@ -14,5 +14,26 @@ int main()
 ```
 	A.	Yes
 	B.	No
+
+2. What will be the output of the program?	
+
+	```
+	#include<stdio.h>
+	int main()
+	{
+	    int i=2;
+	    printf("%d, %d\n", ++i, ++i);
+	    return 0;
+	}
+	```
 	
+3. Is this okay? What happens?
 	
+	```
+	#include<stdio.h>
+	int main()
+	{
+	    printf("%p\n", main());
+	    return 0;
+	}
+    ```
