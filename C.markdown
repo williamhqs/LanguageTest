@@ -14,6 +14,8 @@ int main()
 ```
 	A.	Yes
 	B.	No
+    
+Can't compile. X undeclared.
 
 2. What will be the output of the program?	
 
@@ -26,7 +28,8 @@ int main()
 	    return 0;
 	}
 	```
-	
+GCC：4，4
+Windows: 3, 4
 3. Is this okay? What happens?
 	
 	```
@@ -37,3 +40,5 @@ int main()
 	    return 0;
 	}
     ```
+    
+    Answer: ```segmentation fault```
